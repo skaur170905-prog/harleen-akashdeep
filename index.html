@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5d9df" />
+  <title>Harleen & Akashdeep — Our Forever</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="scene">
+    <!-- Quiet decorative birds -->
+    <div class="bird bird-1" aria-hidden="true">⌁</div>
+    <div class="bird bird-2" aria-hidden="true">⌁</div>
+    <div class="bird bird-3" aria-hidden="true">⌁</div>
+    <div class="bird bird-4" aria-hidden="true">⌁</div>
+
+    <!-- Soft botanical decoration -->
+    <div class="botanical botanical-left" aria-hidden="true">
+      <span>❀</span><span>❁</span><span>❀</span><span>✿</span>
+    </div>
+    <div class="botanical botanical-right" aria-hidden="true">
+      <span>❀</span><span>✿</span><span>❁</span>
+    </div>
+
+    <section class="opening" id="opening">
+      <p class="eyebrow">A little envelope of love</p>
+
+      <div class="envelope-wrap" id="envelopeWrap">
+        <div class="envelope" id="envelope" role="button" tabindex="0"
+             aria-label="Open the invitation">
+          <div class="envelope-back"></div>
+          <div class="envelope-pocket"></div>
+          <div class="letter-peek"></div>
+
+          <div class="flap">
+            <div class="flap-inner"></div>
+          </div>
+
+          <button class="wax-seal" id="seal" type="button" aria-label="Open invitation">
+            <span>H</span><i>✿</i><span>A</span>
+          </button>
+        </div>
+      </div>
+
+      <p class="tap-note" id="tapNote">Tap the seal to open</p>
+      <p class="names-small">Harleen <span>&amp;</span> Akashdeep</p>
+    </section>
+
+    <section class="invitation" id="invitation" aria-hidden="true">
+      <button class="close-btn" id="closeBtn" aria-label="Close invitation">×</button>
+
+      <div class="invite-card">
+        <div class="invite-image-wrap">
+          <img src="assets/invite.jpg" alt="Harleen and Akashdeep engagement invitation" />
+          <div class="image-vignette"></div>
+
+          <!-- Animated foreground birds -->
+          <div class="scene-bird scene-bird-a">⌁</div>
+          <div class="scene-bird scene-bird-b">⌁</div>
+          <div class="scene-bird scene-bird-c">⌁</div>
+
+          <!-- Gentle foreground flowers -->
+          <div class="flower flower-a">✿</div>
+          <div class="flower flower-b">❀</div>
+          <div class="flower flower-c">✿</div>
+        </div>
+
+        <div class="below-card">
+          <p>With love, we invite you to be part of our beautiful beginning.</p>
+          <span>14 · 10 · 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <p class="hint" id="hint">Made with love • tap anywhere on the envelope</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
